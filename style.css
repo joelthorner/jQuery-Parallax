@@ -8,9 +8,9 @@ Plugin URL: http://www.ianlunn.co.uk/plugins/jquery-parallax/
 
 License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike). Please attribute work to Ian Lunn simply by leaving these comments in the source code or if you'd prefer, place a link on your website to http://www.ianlunn.co.uk/.
 */
-
-@charset "utf-8";
-/* CSS Document */
+*{
+	box-sizing: border-box;
+}
 
 body{
 	margin: 0;
@@ -117,9 +117,9 @@ h2{
 
 #fifth{
 	background: #ccc;
-	height: 400px;
+	/* height: 400px; */
 	margin: 0 auto;
-	padding: 40px 0 0 0;
+	padding: 40px 0 40px 0;
 }
 
 .story{
